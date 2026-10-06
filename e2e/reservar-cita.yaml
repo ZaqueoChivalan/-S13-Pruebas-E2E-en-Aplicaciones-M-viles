@@ -1,0 +1,27 @@
+appId: com.agendapro
+---
+- launchApp:
+    clearState: true
+- assertVisible:
+    id: client-role
+- takeScreenshot: 01-home
+- tapOn:
+    id: client-role
+- assertVisible:
+    id: browse-title
+- takeScreenshot: 02-browse
+- tapOn:
+    id: book-1
+- assertVisible:
+    id: booking-title
+- takeScreenshot: 03-booking
+- tapOn:
+    id: time-430-PM
+- tapOn:
+    id: client-name-input
+- inputText: "María González"
+- tapOn:
+    id: confirm-booking
+- assertVisible:
+    id: confirmation-title
+- takeScreenshot: 04-confirmation

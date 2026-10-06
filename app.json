@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "AgendaPro",
+    "slug": "agenda-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "resizeMode": "contain", "backgroundColor": "#F7F8FC" },
+    "assetBundlePatterns": ["**/*"],
+    "android": { "package": "com.agendapro" },
+    "web": { "bundler": "metro" }
+  }
+}

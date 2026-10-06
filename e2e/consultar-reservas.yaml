@@ -1,0 +1,17 @@
+appId: com.agendapro
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: professional-role
+- assertVisible:
+    id: dashboard-title
+- takeScreenshot: 05-dashboard
+- assertVisible:
+    id: reservation-A-1042
+- assertVisible:
+    id: reservation-A-1043
+- tapOn:
+    id: logout-button
+- assertVisible:
+    id: client-role
